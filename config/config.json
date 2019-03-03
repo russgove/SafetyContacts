@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "safety-contact-data-provider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/safetyContactDataProvider/SafetyContactDataProviderWebPart.js",
+          "manifest": "./src/webparts/safetyContactDataProvider/SafetyContactDataProviderWebPart.manifest.json"
+        }
+      ]
+    },
+    "safety-contact-chart-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/safetyContactChart1/SafetyContactChart1WebPart.js",
+          "manifest": "./src/webparts/safetyContactChart1/SafetyContactChart1WebPart.manifest.json"
+        }
+      ]
+    },
+    "safety-contacts-grid-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/safetyContactsGrid/SafetyContactsGridWebPart.js",
+          "manifest": "./src/webparts/safetyContactsGrid/SafetyContactsGridWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SafetyContactDataProviderWebPartStrings": "lib/webparts/safetyContactDataProvider/loc/{locale}.js",
+    "SafetyContactChart1WebPartStrings": "lib/webparts/safetyContactChart1/loc/{locale}.js",
+    "SafetyContactsGridWebPartStrings": "lib/webparts/safetyContactsGrid/loc/{locale}.js"
+  }
+}

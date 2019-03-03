@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "safety-contact-charts-client-side-solution",
+    "id": "0155cbe9-eb9e-4c61-a5da-9820ef60ab0b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/safety-contact-charts.sppkg"
+  }
+}
